@@ -1,4 +1,4 @@
-# PoE-Guild-Character-Parser
+# PoE-Guild-Tag-Helper
 A simple app that allows users to type a case insensitive string of 1-6 characters, to use as a guild tag. The app will return a list of the maps required to match each character. The mapping of maps to characters is stored in a CSV that is built from PoEDB's Map page.
 
 # CSV Update (PoEDB)
