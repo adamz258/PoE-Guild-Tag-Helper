@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>PoE Guild Tag Helper</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Path of Exile</p>
+          <h1>Guild Tag Helper</h1>
+          <p class="lead">
+            Type a 1-6 character guild tag and get the maps you need to sacrifice.
+            All available guild tag characters are listed below.
+          </p>
+          <p class="source">
+            Data source:
+            <a href="https://poedb.tw/us/Maps#MapsItem" target="_blank" rel="noreferrer">
+              PoEDB Maps
+            </a>
+          </p>
+        </div>
+        <div class="hero-card">
+          <p class="hero-card-title">Quick Tips</p>
+          <ul>
+            <li>Case-insensitive lookup, but your casing wins if both exist.</li>
+            <li>Unknown characters are flagged in the results list.</li>
+            <li>Data updates each league via the CSV updater script.</li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="panel">
+          <div class="panel-header">
+            <div>
+              <h2>Build Your Tag</h2>
+              <p class="muted">Max length: 6 characters.</p>
+            </div>
+            <div class="count" id="charCount">0/6</div>
+          </div>
+          <label class="input-label" for="tagInput">Guild Tag</label>
+          <input
+            id="tagInput"
+            type="text"
+            placeholder="Enter your tag, e.g., EXILE"
+            autocomplete="off"
+          />
+          <p class="status" id="statusMessage"></p>
+          <div class="results">
+            <h3>Maps to Sacrifice</h3>
+            <ul id="resultsList" class="results-list"></ul>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <div>
+              <h2>All Available Characters</h2>
+              <p class="muted">Letters and digits first, then symbols.</p>
+            </div>
+            <div class="pill" id="characterCount">0 characters</div>
+          </div>
+          <div class="table-wrap">
+            <table class="character-table">
+              <thead>
+                <tr>
+                  <th>Character</th>
+                  <th>Maps</th>
+                </tr>
+              </thead>
+              <tbody id="characterTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
