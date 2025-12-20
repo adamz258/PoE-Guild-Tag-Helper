@@ -1,155 +1,105 @@
-Map,"Guild tag character"
-Lookout Map,C
-Beach Map,X
-Graveyard Map
-Dungeon Map
-Foundry Map
-Alleyways Map,a
-Pen Map
-Desert Map,W
-Arid Lake Map,c
-Flooded Mine Map,?
-Marshes Map,2
-Iceberg Map,H
-Cage Map
-Fungal Hollow Map
-Excavation Map,S
-Leyline Map
-Peninsula Map
-Port Map,e
-Burial Chambers Map,E
-Cells Map,Ú
-Arcade Map,+
-City Square Map,Ö
-Relic Chambers Map
-Courthouse Map
-Strand Map,8
-Chateau Map,O
-Grotto Map,h
-Glacier Map,U
-Volcano Map,i
-Lighthouse Map,F
-Canyon Map,j
-Frozen Cabins Map,ä
-Grave Trough Map,$
-Crimson Township Map,%
-Forking River Map,^
-Cold River Map
-Forbidden Woods Map
-Conservatory Map
-Sulphur Vents Map,P
-Haunted Mansion Map
-Maze Map,l
-Channel Map,Z
-Toxic Sewer Map,Ï
-Ancient City Map
-Ivory Temple Map,m
-Spider Lair Map
-Barrows Map
-Mausoleum Map,[
-Fields Map
-Jungle Valley Map,5
-Phantasmagoria Map,o
+Map,Guild tag character
 Academy Map,Æ
-Thicket Map,B
-Wharf Map
+Acid Caverns Map,ÿ
+Alleyways Map,a
+Arachnid Nest Map,Ó
+Arachnid Tomb Map,!
+Arcade Map,+
+Arena Map,t
+Arid Lake Map,c
+Arsenal Map,é
 Ashen Wood Map,K
 Atoll Map,Í
-Cemetery Map,L
-Underground Sea Map,q
-Crater Map,D
-Coral Ruins Map
-Lava Chamber Map,Q
-Residence Map,T
-Ramparts Map,Ü
-Dunes Map,A
-Bone Crypt Map,V
-Underground River Map,9
-Gardens Map
-Arachnid Nest Map,Ó
 Bazaar Map,Y
-Laboratory Map
-Infested Valley Map,Œ
-Overgrown Ruin Map
-Vaal Pyramid Map,~
-Geode Map
-Armoury Map
+Beach Map,X
+Belfry Map,w
+Bone Crypt Map,V
+Bramble Valley Map,™
+Burial Chambers Map,E
+Canyon Map,j
+Castle Ruins Map,ê
+Cells Map,Ú
+Cemetery Map,L
+Channel Map,Z
+Chateau Map,O
+City Square Map,Ö
+Colosseum Map,ü
+Core Map,û
 Courtyard Map,4
-Mud Geyser Map,É
-Shore Map,/
-Tropical Island Map,Û
+Coves Map,Ê
+Crater Map,D
+Crimson Temple Map,©
+Crimson Township Map,%
+Cursed Crypt Map,}
+Dark Forest Map,®
+Defiled Cathedral Map,ú
+Desert Map,W
+Desert Spring Map,ç
+Dunes Map,A
+Estuary Map,s
+Excavation Map,S
+Factory Map,Î
+Flooded Mine Map,?
+Forge of the Phoenix Map,¤
+Forking River Map,^
+Frozen Cabins Map,ä
+Ghetto Map,œ
+Glacier Map,U
+Grave Trough Map,$
+Grotto Map,h
+Iceberg Map,H
+Infested Valley Map,Œ
+Ivory Temple Map,m
+Jungle Valley Map,5
+Lair of the Hydra Map,¢
+Lava Chamber Map,Q
+Lava Lake Map,µ
+Lighthouse Map,F
+Lookout Map,C
+Marshes Map,2
+Mausoleum Map,[
+Maze Map,l
+Maze of the Minotaur Map,£
+Mesa Map,Ò
 Mineral Pools Map,{
 Moon Temple Map,=
-Sepulchre Map,Ÿ
-Tower Map
-Waste Pool Map,_
-Plateau Map,|
-Estuary Map,s
-Vault Map
-Temple Map,-
-Arena Map,t
+Mud Geyser Map,É
 Museum Map,(
-Scriptorium Map
-Siege Map
-Synthesised Map
-Shipyard Map,v
-Belfry Map,w
-Arachnid Tomb Map,!
-Wasteland Map,x
-Precinct Map,:
-Bog Map
-Pier Map
-Cursed Crypt Map,}
-Orchard Map,<
-Promenade Map,;
-Lair Map
-Colonnade Map
-Primordial Pool Map,Â
-Spider Forest Map,Ã
-Coves Map,Ê
-Waterways Map,Ì
-Factory Map,Î
-Mesa Map,Ò
-Pit Map,×
-Dry Sea Map
-Defiled Cathedral Map,ú
-Summit Map,ù
-Overgrown Shrine Map,¾
-Castle Ruins Map,ê
-Crystal Ore Map
-Villa Map,³
-Primordial Blocks Map,â
 Necropolis Map,°
-Racecourse Map,«
-Caldera Map
-Ghetto Map,œ
-Park Map,÷
-Malformation Map
-Terrace Map
-Shrine Map
-Arsenal Map,é
-Desert Spring Map,ç
-Core Map,û
-Colosseum Map,ü
-Acid Caverns Map,ÿ
-Dark Forest Map,®
-Crimson Temple Map,©
-Plaza Map
-Dig Map
+Orchard Map,<
+Overgrown Shrine Map,¾
 Palace Map,\
-Lava Lake Map,µ
-Basilica Map
-Sunken City Map
-Reef Map
-Carcass Map
-Stagnation Map
-Bramble Valley Map,™
-Silo Map,•
+Park Map,÷
+Phantasmagoria Map,o
+Pit Map,×
 Pit of the Chimera Map,Â
-Lair of the Hydra Map,¢
-Maze of the Minotaur Map,£
-Forge of the Phoenix Map,¤
-The Shaper's Realm
+Plateau Map,|
+Port Map,e
+Precinct Map,:
+Primordial Blocks Map,â
+Primordial Pool Map,Â
+Promenade Map,;
+Racecourse Map,«
+Ramparts Map,Ü
+Residence Map,T
+Sepulchre Map,Ÿ
+Shipyard Map,v
+Shore Map,/
+Silo Map,•
+Spider Forest Map,Ã
+Strand Map,8
+Sulphur Vents Map,P
+Summit Map,ù
+Temple Map,-
+Thicket Map,B
+Toxic Sewer Map,Ï
+Tropical Island Map,Û
+Underground River Map,9
+Underground Sea Map,q
+Vaal Pyramid Map,~
 Vaal Temple Map,>
-Sanctuary Map
-Citadel Map
+Villa Map,³
+Volcano Map,i
+Waste Pool Map,_
+Wasteland Map,x
+Waterways Map,Ì

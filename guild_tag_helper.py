@@ -173,7 +173,7 @@ def main():
     count_var = tk.StringVar(value=f"0/{MAX_TAG_LENGTH}")
     status_var = tk.StringVar()
 
-    ttk.Label(input_frame, text="Tag (1-5 characters):").grid(
+    ttk.Label(input_frame, text="Tag (1-6 characters):").grid(
         row=0, column=0, sticky="w", padx=(0, 8)
     )
     tag_entry = ttk.Entry(input_frame, textvariable=tag_var)
