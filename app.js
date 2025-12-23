@@ -127,6 +127,22 @@ function renderCharacterTable() {
   characterCount.textContent = `${state.sortedChars.length} characters`;
 }
 
+function appendCharacterToTag(character) {
+  if (!character) {
+    return;
+  }
+
+  const currentTag = Array.from(tagInput.value);
+  if (currentTag.length >= MAX_TAG_LENGTH) {
+    return;
+  }
+
+  currentTag.push(character);
+  tagInput.value = currentTag.join("");
+  updateTagResults();
+  tagInput.focus();
+}
+
 function resolveCharacterMaps(character) {
   if (state.charToMaps.has(character)) {
     return state.charToMaps.get(character);
@@ -236,5 +252,24 @@ function loadData() {
 }
 
 tagInput.addEventListener("input", updateTagResults);
+
+characterTableBody.addEventListener("dblclick", (event) => {
+  const target = event.target instanceof Element ? event.target : event.target.parentElement;
+  if (!target) {
+    return;
+  }
+
+  const row = target.closest("tr");
+  if (!row || !characterTableBody.contains(row)) {
+    return;
+  }
+
+  const characterCell = row.querySelector("td");
+  if (!characterCell) {
+    return;
+  }
+
+  appendCharacterToTag(characterCell.textContent.trim());
+});
 
 loadData();
