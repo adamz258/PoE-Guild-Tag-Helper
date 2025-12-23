@@ -184,16 +184,16 @@ function updateTagResults() {
   }
 
   const missingCharacters = new Set();
-  limitedCharacters.forEach((character, index) => {
+  limitedCharacters.forEach((character) => {
     const maps = resolveCharacterMaps(character);
     const listItem = document.createElement("li");
 
     if (!maps) {
-      listItem.textContent = `${index + 1}. ${character} -> No map found`;
+      listItem.textContent = `${character} → No map found`;
       listItem.classList.add("missing");
       missingCharacters.add(character);
     } else {
-      listItem.textContent = `${index + 1}. ${character} -> ${Array.from(maps).join(", ")}`;
+      listItem.textContent = `${character} → ${Array.from(maps).join(", ")}`;
     }
 
     resultsList.appendChild(listItem);
